@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Jose
 {
-    public class EcdhKeyManagementWinWithAesKeyWrap : EcdhKeyManagementUnix
+    public class EcdhKeyManagementWinWithAesKeyWrap : EcdhKeyManagementWin
     {
         private readonly AesKeyWrapManagement aesKW;
         private readonly int keyLengthBits;
